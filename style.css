@@ -1,16 +1,23 @@
 .flexbox { 
 display: flex;
-border: 2px solid aliceblue;
+border: 4.5px solid rgb(156, 226, 226);
 padding:20px; 
 }
 
 
 .item {
-border: 2px solid lightpink;
-padding:20px;
+border: 3.5px solid lightpink;
+padding:18px; 
+}
 
-#box1 {
-
+#box1 { background-color:rgb(62, 7, 7);
 justify-content: space-evenly;
-}
-}
+} 
+
+#box2 { background-color:rgb(90, 48, 48);}
+
+#box3 { background-color: rgb(12, 33, 32);}
+
+#box4 { background-color: rgb(57, 70, 61);}
+
+
